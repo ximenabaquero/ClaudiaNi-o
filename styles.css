@@ -8,19 +8,20 @@
 }
 
 :root {
-    /* Color Palette - Elegant and Professional */
-    --primary-color: #2D5F7A;
-    --secondary-color: #8AB0C1;
+    /* Color Palette - Warm and Elegant */
+    --primary-color: #8B6F47;
+    --secondary-color: #C9A86A;
     --accent-color: #D4AF37;
     --text-dark: #1A1A1A;
     --text-light: #555555;
-    --bg-light: #FAFAFA;
+    --bg-light: #FEF9F3;
     --white: #FFFFFF;
     --border-light: #E8E8E8;
     
     /* Typography */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Montserrat', sans-serif;
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Nunito', sans-serif;
+    --font-logo: 'Parisienne', cursive;
     
     /* Spacing */
     --section-padding: 80px 20px;
@@ -92,6 +93,7 @@ h1, h2, h3 {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 600;
+    font-family: var(--font-logo);
 }
 
 .nav-menu {
